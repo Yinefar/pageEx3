@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    background-image: url("../imagenes/paracas.jpg");
+    margin: 0;
+}
+
+
+#title {
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 10%;
+    font-family: monospace;
+    font-size: 360%;
+
+}
+
+.text {
+    background-color: transparent;
+    padding: 0.75rem 1.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px; /* para centrar el texto*/
+    width: 80%; /*  /para tamaño que alcanza el contenido en el div/ */
+    text-align:center;
+    display: flex;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.atractions {
+    width: 30rem;
+	height: 30rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    /* margin-bottom: 30px; */
+    padding:5%;
+    /* margin-left: 20px; */
+    margin: 50px auto 50px 20px;
+    background-image: url("../imagenes/lobi.jpg");
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+
+
+.atractions > h2 {
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.atractions ol{
+    list-style-type: none;
+    padding: 0;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+
+ }
+
+
+footer {
+    background: #0c2941;
+    width: 100%;
+    margin: 0;
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    max-width: 1248px;
+
+}
+
+
+.footer-content ol{
+    list-style-type: none;
+    padding: 0;
+    font-size: medium;
+ }
+
+ .footer-content ol li a {
+    color: #c2c08edf;
+    text-decoration: none;
+}
